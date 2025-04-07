@@ -1,5 +1,7 @@
 # crark_multithread
-Python script to launch multiple threads of crark to brute-force password recovery.
+Python script to launch multiple threads of crark to brute-force RAR password recovery.
+
+This is mostly makes sense for RAR2 archives, as for RAR3 you can use JohnTheReaper to get your password using GPU.
 
 This script creates multiple *.def files with different prfixes that generates from "charset" variable defined at the begginng of the program.
 
