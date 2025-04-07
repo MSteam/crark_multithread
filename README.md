@@ -1,4 +1,4 @@
-crark_multithread
+# crark_multithread
 
 Python script to launch multiple threads of crark to brute-force RAR password recovery.
 
@@ -9,14 +9,16 @@ This script creates multiple *.def files with different prefixes that generate f
 Contents of the generated definition are written with this line: file.write(f"##\n{combo}[$a $1] *
 
 max_instances = number of cores on your CPU
-Launch parameters:
+
+# Launch parameters:
 
 min_len = Minimum password length
 
 max_len = Maximum password length
 
 archive_filename = name of RAR file
-Charset and combination settings.
+
+# Charset and combination settings.
 
 charset = "abcdefghijklmnopqrstuvwxyz0123456789"
 
